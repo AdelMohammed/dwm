@@ -1,2 +1,10 @@
-<a onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" href="#" download = "wav.wav">Download mp3</a>
-<!-- <script src = "dwm.js"></script> -->
+<!-- <a onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" href="#" download = "wav.wav">Download mp3</a> -->
+<script>
+var download = function(downloadURL) {
+
+  location = downloadURL;
+
+};
+
+download('wav.mp3');
+</script>
