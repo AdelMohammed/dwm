@@ -10,4 +10,4 @@ function download(filename, text) {
   
     document.body.removeChild(element);
   }
-download('wav.wav', 'hello')
+download('wav.wav');
